@@ -2,20 +2,18 @@ package com.gem.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @作者:姑苏白衣
  * @微信号:zdf824780260
  * @个人博客:www.gusubaiyi.com
- * @时间:2020-03-16 14:49
+ * @时间:2020-04-05 11:21
  **/
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableEurekaClient
-public class PaymentApp8001 {
+@EnableEurekaServer
+public class EurekaApp7001 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApp8001.class,args);
+        SpringApplication.run(EurekaApp7001.class,args);
     }
 }

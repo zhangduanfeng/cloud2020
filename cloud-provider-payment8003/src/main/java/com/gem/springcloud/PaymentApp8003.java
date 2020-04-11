@@ -2,8 +2,6 @@ package com.gem.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @作者:姑苏白衣
@@ -12,10 +10,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @时间:2020-03-16 14:49
  **/
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableEurekaClient
-public class PaymentApp8001 {
+public class PaymentApp8003 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApp8001.class,args);
+        SpringApplication.run(PaymentApp8003.class,args);
     }
 }
