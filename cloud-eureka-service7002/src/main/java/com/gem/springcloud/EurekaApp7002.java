@@ -3,6 +3,7 @@ package com.gem.springcloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
  * @作者:姑苏白衣

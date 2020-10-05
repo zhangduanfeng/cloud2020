@@ -1,9 +1,57 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# IntelliJ project files
+# Folder config file
+Desktop.ini
+
+# java class file
+*.class
+
+# Package Files #
+*.war
+*.ear
+/target
+/.settings
+/.classpath
+/.project
+/.idea
+
+# ignore Maven generated target folders
+target
+out
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.factorypath
+.metadata
 .idea
 *.iml
-out
-gen
+
+# ignore log files
+*.log
+cloud-api-commons/src/main/resources/
+cloud-api-commons/src/test/
+cloud-api-commons/target/
+cloud-consumer-order8002/src/test/
+cloud-consumer-order8002/target/
+cloud-consumerconsul-order80/src/test/
+cloud-consumerconsul-order80/target/
+cloud-consumerzk-order80/src/test/
+cloud-consumerzk-order80/target/
+cloud-eureka-service7001/src/test/
+cloud-eureka-service7001/target/
+cloud-eureka-service7002/src/test/
+cloud-eureka-service7002/target/
+cloud-provider-hystrix-payment8005/src/test/
+cloud-provider-hystrix-payment8005/target/
+cloud-provider-payment8001/src/test/
+cloud-provider-payment8001/target/
+cloud-provider-payment8003/src/test/
+cloud-provider-payment8003/target/
+cloud-provider-payment8004/src/test/
+cloud-provider-payment8004/target/
+cloud-providerconsul-payment8006/src/test/
+cloud-providerconsul-payment8006/target/
